@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {useState} from 'react';
 import styles from '../../styles/MyCV.module.css';
 
 const Landing = () => {
   const [showCVModal, setShowCVModal] = useState(false);
+  const [ animate, setAnimate ] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setAnimate(false);
+    }, 2450);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   const openCVModal = () => {
     setShowCVModal(true);
@@ -25,13 +34,12 @@ const Landing = () => {
   return (
     <>
     <div className='relative w-full h-80'>
-      <object
-        className='absolute left-1/2 transform -translate-x-1/2 w-1/2'
-          data="/bwsahil.svg"
-          type='image/svg+xml' width={300} height={300}>
-        </object>
-        <h1 className='absolute top-24 left-2/3 text-black text-md sm:text-lg'>Hi I am,</h1>
-        <h1 className=' absolute top-32 left-2/3   text-black text-lg sm:text-2xl'> Sahil Gangwani</h1>
+      <img
+        className='absolute left-1/2 transform -translate-x-1/2 w-58 md:w-1/4'
+          src="/bwsahil.svg"
+          type='image/svg+xml'/>
+        <h1 className={`absolute top-24 left-2/3 text-black text-md sm:text-lg ${ animate ? 'animate-bounce':''}`}>Hi I am,</h1>
+        <h1 className={`absolute top-32 left-2/3   text-black text-lg sm:text-2xl ${ animate ? 'animate-bounce':''}`}> Sahil Gangwani</h1>
         </div>
         <p className='p-8 md:px-20 text-black text-justify'>
           I am a passionate full-stack developer who loves working with MERN stack and Java. I enjoy tackling problems and have built a range of projects for hackathons. One of my proudest moments was winning the top spot in a national hackathon at my college, earning a prize of 2 lakh rupees. It was a real confidence boost and showed me the power of creative problem-solving.
