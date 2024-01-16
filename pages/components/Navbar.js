@@ -37,11 +37,9 @@ const Navbar = ({sectionRefs}) => {
       >
        <div>
           <a href="#" className='flex gap-4 justify-center items-center'>
-            <Image className=' h-12 w-12 rounded-full transfrom border border-black object-contain '
+            <img className=' h-12 w-12 rounded-full transfrom border border-black object-contain bg-white '
              src="/sahilphoto.jpeg"
              alt='sahil-photo'
-             width={50}
-             height={50}
              />
              <h1 className='text-white'>Sahil Gangwani</h1>
 

@@ -26,7 +26,7 @@ const Projects = () => {
             </div>
             <div className=' z-0 top-5 right-0 sm:absolute h-64 sm:w-7/12 '>
               <div className='w-full h-full rounded-lg overflow-hidden shadow-2xl'>
-                <img className='object-cover object-center w-full h-full'  src='/inventory.png'></img>
+                <a href="https://samskarabilling.vercel.app/" target="_blank" rel="noopener noreferrer"><img className='object-cover object-center w-full h-full'  src='/inventory.png'></img></a>
               </div>
               
               <div className='flex pt-2 gap-2 justify-end'>
@@ -62,7 +62,7 @@ const Projects = () => {
             </div>
             <div className=' z-0 top-5 left-0 sm:absolute h-64 sm:w-7/12 '>
               <div className='w-full h-full rounded-lg overflow-hidden shadow-2xl'>
-                <img className='object-cover object-center w-full h-full'  src='/inventory.png'></img>
+                <a href="https://coinraise-ten.vercel.app/" target="_blank" rel="noopener noreferrer"><img className='object-cover object-center w-full h-full'  src='/project2-img.png'></img></a>
               </div>
               
               <div className='flex pt-2 gap-2'>

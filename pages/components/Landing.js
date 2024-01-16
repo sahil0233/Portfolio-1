@@ -35,7 +35,7 @@ const Landing = () => {
     <>
     <div className='relative w-full h-80'>
       <img
-        className='absolute left-1/2 transform -translate-x-1/2 w-58 md:w-1/4'
+        className='absolute left-1/2 transform -translate-x-1/2 w-56 md:w-1/4'
           src="/bwsahil.svg"
           type='image/svg+xml'/>
         <h1 className={`absolute top-24 left-2/3 text-black text-md sm:text-lg ${ animate ? 'animate-bounce':''}`}>Hi I am,</h1>

@@ -34,7 +34,7 @@ export default function Home() {
   }
 
   return (
-    <main className='max-h-full mx-auto bg-blue-200 flex flex-col items-center'>
+    <main className='max-h-full mx-auto bg-blue-100 flex flex-col items-center'>
       <Navbar sectionRefs = {sectionRefs} />
       <div className='max-w-screen-lg flex flex-col items-center gap-16'>
         <div ref={home_div} className='flex flex-col justify-center relative items-center max-w-screen-lg py-4 shadow-md'>
