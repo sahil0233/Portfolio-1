@@ -11,8 +11,8 @@ const ContactMe = () => {
         className="block rounded-lg bg-[hsla(0,0%,100%,0.7)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
         <div className="mb-12 grid gap-x-6 md:grid-cols-1 lg:grid-cols-3">
           <div className="mx-auto mb-12 text-center lg:mb-0">
-            <a href='mailto:sahilgangwani.2024@gmail.com'><img className="mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400" src ="/mail.svg" /></a>
-            <h6 className="font-medium"> <a href="mailto:sahilgangwani.2024@gmail.com">sahilgangwani.2024@gmail.com</a></h6>
+            <a href='mailto:sahil.gangwani2024@gmail.com'><img className="mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400" src ="/mail.svg" /></a>
+            <h6 className="font-medium"> <a href="mailto:sahil.gangwani2024@gmail.com">sahil.gangwani2024@gmail.com</a></h6>
           </div>
           <div className="mx-auto mb-12 text-center lg:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
