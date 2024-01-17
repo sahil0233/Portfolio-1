@@ -36,14 +36,14 @@ const Navbar = ({sectionRefs}) => {
         "
       >
        <div>
-          <a href="#" className='flex gap-4 justify-center items-center'>
+          <button onClick={() => scrollToDiv(sectionRefs.home_div)} className='flex gap-4 justify-center items-center'>
             <img className=' h-12 w-12 rounded-full transfrom border border-black object-contain bg-white '
              src="/sahilphoto.jpeg"
              alt='sahil-photo'
              />
              <h1 className='text-white'>Sahil Gangwani</h1>
 
-          </a>
+          </button>
         </div>
        
          <svg
