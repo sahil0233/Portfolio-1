@@ -12,9 +12,9 @@ const ContactMe = () => {
         <div className="mb-12 grid gap-x-6 md:grid-cols-1 lg:grid-cols-3">
           <div className="mx-auto mb-12 text-center lg:mb-0">
             <a href='mailto:sahil.gangwani2024@gmail.com'><img className="mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400" src ="/mail.svg" /></a>
-            <h6 className="font-medium text-white text-md"> <a href="mailto:sahil.gangwani2024@gmail.com">sahil.gangwani2024@gmail.com</a></h6>
+            <h6 className="font-medium text-black text-md"> <a href="mailto:sahil.gangwani2024@gmail.com">sahil.gangwani2024@gmail.com</a></h6>
           </div>
-          <div className="mx-auto mb-12 text-black lg:mb-0">
+          <div className="mx-auto mb-12 lg:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
               stroke="currentColor" className="mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
