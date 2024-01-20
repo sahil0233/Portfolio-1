@@ -44,7 +44,7 @@ export default function Home() {
           <Qualifications />
         </div>
         <div ref={skills_div} className='flex flex-col items-center'>
-          <div className="w-80 flex justify-center gap-2 rounded-xl bg-blue-800 p-2">
+          <div className="w-80 text-white flex justify-center gap-2 rounded-xl bg-blue-800 p-2">
             <div className='w-40'>
                 <input onChange={handleSkillChange} type="radio" name="option" id="codingskills" value="1" className="peer hidden" checked={selectedSkill === '1'} />
                 <label htmlFor="codingskills" className="block cursor-pointer select-none rounded-xl p-2 text-center peer-checked:bg-black peer-checked:font-bold peer-checked:text-white">Coding Skills</label>
@@ -52,7 +52,7 @@ export default function Home() {
 
             <div className='w-40'>
                 <input onChange={handleSkillChange} type="radio" name="option" id="softskills" value="2" className="peer hidden" checked = {selectedSkill === '2'} />
-                <label htmlFor="softskills" className="block cursor-pointer select-none rounded-xl p-2 text-center peer-checked:bg-black peer-checked:font-bold peer-checked:text-white">Soft Skills</label>
+                <label htmlFor="softskills" className="block cursor-pointer select-none rounded-xl p-2 text-center text-white peer-checked:bg-black peer-checked:font-bold peer-checked:text-white">Soft Skills</label>
             </div>
           
           </div>

@@ -60,8 +60,8 @@ const Landing = () => {
         </div>
       )}
         <div className='flex gap-4'>
-          <button className='bg-blue-800 p-2 rounded-lg' onClick={openCVModal}>View CV</button>
-          <button  onClick={handleDownload} className='border bg-blue-800 p-2 rounded-lg'>Download CV</button>
+          <button className='bg-blue-800 p-2 rounded-lg text-white text-md' onClick={openCVModal}>View CV</button>
+          <button  onClick={handleDownload} className='border bg-blue-800 p-2 rounded-lg text-white text-md'>Download CV</button>
         </div>
     </>
   )

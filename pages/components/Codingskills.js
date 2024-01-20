@@ -16,7 +16,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 React.js
                 </h2>
             </span>
@@ -31,7 +31,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 Next.js
                 </h2>
             </span>
@@ -45,7 +45,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 Express.js
                 </h2>
             </span>
@@ -59,7 +59,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 Node.js
                 </h2>
             </span>
@@ -72,7 +72,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 Java
                 </h2>
             </span>
@@ -85,7 +85,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 TailwindCSS
                 </h2>
             </span>
@@ -99,7 +99,7 @@ const Codingskills = () => {
                         height={50}
                     />
                </div>
-               <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+               <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                 Bootstrap
                 </h2>
             </span>

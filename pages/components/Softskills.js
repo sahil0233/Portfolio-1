@@ -16,7 +16,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                     Comunication
                     </h2>
                 </span>
@@ -31,7 +31,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                     Collaboration
                     </h2>
                 </span>
@@ -45,7 +45,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                    Problem-solving
                     </h2>
                 </span>
@@ -58,7 +58,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                    Teancious
                     </h2>
                 </span>
@@ -72,7 +72,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                    Outcome-Oriented
                     </h2>
                 </span>
@@ -86,7 +86,7 @@ const Softskills = () => {
                             height={50}
                         />
                    </div>
-                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-white text-center">
+                   <h2 className="mt-2 font-semibold text-base sm:text-lg text-black text-center">
                     Flexibile
                     </h2>
                 </span>

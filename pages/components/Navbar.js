@@ -76,20 +76,20 @@ const Navbar = ({sectionRefs}) => {
               md:pt-0"
           >
             <li>
-           <button onClick={() => scrollToDiv(sectionRefs.home_div)}>Home</button>
-         </li>
-         <li>
-           <button onClick={() => scrollToDiv(sectionRefs.qualifications_div)}>Qualifactions</button>
-         </li>
-         <li>
-         <button onClick={() => scrollToDiv(sectionRefs.skills_div)}>Skills</button>
-         </li>
-         <li>
-         <button onClick={() => scrollToDiv(sectionRefs.projects_div)}>Projects</button>
-         </li>
-         <li>
-         <button onClick={() => scrollToDiv(sectionRefs.contact_div)}>Contact</button>
-         </li>
+              <button onClick={() => scrollToDiv(sectionRefs.home_div)}>Home</button>
+            </li>
+            <li>
+              <button onClick={() => scrollToDiv(sectionRefs.qualifications_div)}>Qualifactions</button>
+            </li>
+            <li>
+              <button onClick={() => scrollToDiv(sectionRefs.skills_div)}>Skills</button>
+            </li>
+            <li>
+              <button onClick={() => scrollToDiv(sectionRefs.projects_div)}>Projects</button>
+            </li>
+            <li>
+              <button onClick={() => scrollToDiv(sectionRefs.contact_div)}>Contact</button>
+            </li>
           </ul>
         </div>
     </nav>

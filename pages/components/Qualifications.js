@@ -3,8 +3,8 @@ import Image from 'next/image'
 const Qualifications = () => {
   return (
     <>
-        <h2 className=' self-center text-4xl'>Qualifications</h2>
-        <div className=' mt-8 w-full sm:w-1/2 relative flex flex-col gap-4 '>
+        <h2 className=' self-center text-4xl text-black'>Qualifications</h2>
+        <div className=' mt-8 w-full sm:w-1/2 relative flex flex-col gap-4 text-black'>
            
             
             <div className=' border-l-2 pl-2 border-blue-800 self-start'>
